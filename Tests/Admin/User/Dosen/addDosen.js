@@ -68,7 +68,7 @@ async function runTest() {
 
         // Isi Nama Dosen
         let namaDosenInput = await driver.wait(until.elementLocated(By.css('input[placeholder="Masukkan nama lengkap tanpa gelar"]')), 10000);
-        await namaDosenInput.sendKeys('Selenium Dosen');
+        await namaDosenInput.sendKeys('Automation Dosen');
         console.log('Berhasil mengisi nama dosen.');
 
         // Isi NIP
